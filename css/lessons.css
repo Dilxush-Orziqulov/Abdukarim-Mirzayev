@@ -1,0 +1,111 @@
+.lessons-section {
+  padding: 80px 0;
+}
+
+.lessons-box {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+}
+
+.lesson {
+  width: 100%;
+  padding: 40px;
+  border: 2px solid var(--yellow);
+  color: var(--white);
+}
+
+.lesson-number {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.lesson-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 5px 0 20px;
+}
+
+.lesson-desc {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.lesson-desc2 {
+  padding-top: 30px;
+}
+
+.join-group {
+  width: 62%;
+  margin: -60px -5px 0;
+  display: grid;
+  grid-template-columns: 350px 500px;
+  flex-wrap: nowrap;
+  align-items: center;
+  line-height: 20px;
+  position: relative;
+}
+
+.join-group__text {
+  font-size: 14px;
+  font-weight: 700;
+  width: 210px;
+  color: var(--white);
+}
+
+.btn_link2 {
+  width: 210px;
+  font-weight: bold;
+}
+
+.lesson3 {
+  margin-top: -120px;
+}
+
+.lesson5 {
+  margin-top: -145px;
+}
+
+.lesson7 {
+  margin-top: -165px;
+}
+
+
+@media screen and (max-width: 1133px) {
+  .lessons-box{
+    display: grid;
+    grid-template-columns: auto;
+    grid-row: 30px;
+  }
+
+  .lesson3 {
+    margin-top: 0px;
+  }
+    
+  .lesson5 {
+    margin-top: 0px;
+  }
+  
+  .lesson7 {
+    margin-top: 0px;
+  }
+
+  .join-group{
+    margin: 40px 0 0 100px;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .join-group{
+    margin: 30px 50px 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .join-group{
+    margin: 30px 0px 0;
+  }
+}
